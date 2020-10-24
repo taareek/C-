@@ -1,2 +1,2 @@
 # C++
-Here are some basic C++ codes
+Here I have added some basic C++ codes for beginner.
