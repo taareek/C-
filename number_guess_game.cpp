@@ -15,7 +15,7 @@ int getRandom(int low, int high, int badNum) {
 int main() {
 
     int guess = 0;
-    int winningNum = 0;
+    int win_Num = 0;
     int elimNum = 0;
     int switchedNum = 0;
     int switchCount = 0;
@@ -35,7 +35,7 @@ int main() {
 
     for (int i = 0; i <= 1000; i++) {
 
-        winningNum = getRandom(1, 3, 0);
+        win_Num = getRandom(1, 3, 0);
         elimNum = getRandom(1, 3, winningNum);
         switchedNum = getRandom(1, 3, elimNum);
 
@@ -43,7 +43,7 @@ int main() {
             switchedNum = getRandom(1, 3, elimNum);
         }
 
-        if (switchedNum == winningNum) { switchCount++; }
+        if (switchedNum == win_Num) { switchCount++; }
     }
 
     cout << "You won " << switchCount / 10 << "% of the time, and lost  " << 100 - (switchCount / 10) << "% of the time.";
