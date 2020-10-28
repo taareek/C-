@@ -1,3 +1,7 @@
+/*
+This code will give you winning percentage of your given guess
+*/
+
 #include <iostream>
 #include <cstdlib>
 using namespace std;
