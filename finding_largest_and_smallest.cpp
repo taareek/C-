@@ -1,3 +1,8 @@
+/*
+It will take 10 numbers from user
+and will return the the smallest and largest
+*/
+
 #include<iostream>
 using namespace std;
 int main(){
