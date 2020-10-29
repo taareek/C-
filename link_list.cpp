@@ -1,3 +1,8 @@
+/*
+This code works for linked list 
+where you can add, insert, remove and find element of a link list
+*/
+
 #include<iostream>
 #include<cstdlib>
 using namespace std;
