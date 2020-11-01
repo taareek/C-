@@ -1,3 +1,6 @@
+//This code is for depth first search
+//I have used built in stack in this code
+
 #include <iostream>
 #include <stdlib.h>
 #include <stdio.h>
