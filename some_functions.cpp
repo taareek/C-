@@ -1,3 +1,6 @@
+//Here is some void and non-void functions using 0,1 and more than 1 parameters
+//with pass by value and pass by references
+
 #include<iostream>
 using namespace std;
 
