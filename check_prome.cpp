@@ -1,3 +1,6 @@
+//This code will check a number is prime or not
+//Then it will print prime or not
+
 #include<iostream>
 #include<cstdlib>
 using namespace std;
