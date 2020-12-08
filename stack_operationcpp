@@ -51,7 +51,7 @@ int main()
     }while (ch != 0);
     return 0;
 }
-
+//Adding a new element in stack
 bool push(int a[], int *topT, int data) {
 
 	if(isFull(topT) == true)  // Check whether the stack is full
@@ -65,7 +65,7 @@ bool push(int a[], int *topT, int data) {
 	(*topT)++;
 	return true;
 }
-
+//Deleting an element from stack
 int pop(int stackT[], int *topT) {
 	if(isEmpty(topT) == true)
         {
@@ -79,7 +79,7 @@ int pop(int stackT[], int *topT) {
 	int  data = stackT[index];
 	return data;
 }
-
+//Checking the stack is empty or not
 bool isEmpty(int *topT) {
 	int index = (*topT);
 	if (index == 0)
@@ -87,7 +87,7 @@ bool isEmpty(int *topT) {
 	else
         return false;
 }
-
+//Checking the stack is Full or not
 bool isFull(int *topT) {
 	int index = (*topT);
 	if (index == 5)
@@ -96,6 +96,7 @@ bool isFull(int *topT) {
         return false;
 }
 
+//Printing the stack
 void printStack(int stackT[], int *topT)
 {
     if (isEmpty(topT) == true)
@@ -110,6 +111,8 @@ void printStack(int stackT[], int *topT)
             else  cout << stackT[i] << endl <<"  <---- Top" <<endl;
     }
 }
+
+//Counting positive and negative numbrs in stack
 void countPosNeg(int stackT[], int *topT){
     int pos=0;
     int neg=0;
